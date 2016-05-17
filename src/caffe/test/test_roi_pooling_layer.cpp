@@ -80,6 +80,7 @@ class ROIPoolingLayerTest : public MultiDeviceTest<TypeParam> {
 
     blob_bottom_vec_2_.push_back(blob_bottom_rois_2_);
     blob_top_vec_2_.push_back(blob_top_data_2_);
+
   }
   virtual ~ROIPoolingLayerTest() {
     delete blob_bottom_data_;
